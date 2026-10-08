@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class DCSJOptionPane {
+public class DCSJOptionpane {
     public static void main(String []args){
         String yearIput = "";
         yearIput = JOptionPane.showInputDialog("Please enter your year");
@@ -15,6 +15,6 @@ public class DCSJOptionPane {
             }
         }catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "Please input a whole number");
-        }
+            }
     }
 }
